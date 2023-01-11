@@ -1,0 +1,39 @@
+body {
+    background-color: antiquewhite;
+    color: green;
+}
+
+/* Styling the list of items in the nav bar */
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+/* styling the space of each item */
+nav li {
+    list-style: none;
+    background-color: blue;
+    color:yellow;
+    margin:0;
+    flex:1;
+    min-width: 200px;
+    text-align: center;
+    display:flex;
+}
+/*styling the link,both unvisited and visited */
+nav a, nav a:visited {
+    text-decoration: none;
+    width: 100%;
+    padding:8px 0px;
+    color white;
+}
+nav a:hover {
+    color:green;
+    background-color: yellow;
+}
+/* Hoovering over the link AND the active (current) */
+nav a:hover, nav a.active {
+    color:red;
+    background-color: white;
+}
